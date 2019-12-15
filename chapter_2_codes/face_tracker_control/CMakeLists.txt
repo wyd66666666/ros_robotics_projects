@@ -46,4 +46,8 @@ add_executable(face_tracker_controller src/face_tracker_controller.cpp)
 add_dependencies(face_tracker_controller ${${PROJECT_NAME}_EXPORTED_TARGETS})
 target_link_libraries(face_tracker_controller ${catkin_LIBRARIES})
 
+12.15
+sudo apt-get install ros-melodic-moveit
+
+https://blog.csdn.net/Lynn_mg/article/details/101874775
 
